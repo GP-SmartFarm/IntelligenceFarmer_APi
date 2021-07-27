@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7Nsb/hhdIE26K6g0EvyrugAAAAACAAAAAAAQZgAAAAEAACAAAADBvzCA2KQLYA302fv5ZeDqVPymPGnewZ7VNgqJ/8tSnQAAAAAOgAAAAAIAACAAAADMspO70Y6KmnCRfuHDBv1ZLjmJUL3572CuRl0SSG+Bh4AAAABls6TmmS0Xs6eRx5EvNC8C0iZITZw1cU5hqtqOT/Qnwczqx4ILOaVnG15QQrxGW3Go5IHaoKfU+Yp0WADoJOsRmniithJH2ZQlPtzYowZM7tKusbRwN+v/a49zZRnfcP9T7KCN2zcojSGLskDDWdymMDa087D/W1owaLuiRzz5cUAAAACTQwkfwKT9OqR+PUsmc6NPRONf0GRJ3kRdzaejK4f74D0wcTek8aPimAkRcwLA8XT5y9qJC/xiJ08FyLBgBjj+</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="MyConnection">
+      <Value>Server=tcp:farmgp2021.database.windows.net,1433%3bInitial Catalog=IntelligenceFarmerDB%3bPersist Security Info=False%3bUser ID=hassan%3bPassword=Ali&amp;21699##%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
